@@ -1,0 +1,22 @@
+{
+  "name": "flapper-news",
+  "description": "",
+  "main": "",
+  "authors": [
+    "abdurrehim <abdurrehim.sen@bil.omu.edu.tr>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.10",
+    "bootstrap": "^3.3.7"
+  }
+}
