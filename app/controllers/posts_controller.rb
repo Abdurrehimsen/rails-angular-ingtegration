@@ -8,7 +8,11 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.create(post_params)
-    format.json { render status: :created, json: @analyte }
+    @post.upvotes = 0
+    @post.save
+    respond_to do |format|
+      format.json { render(json: @post) }
+    end
   end
 
   def show
