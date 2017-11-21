@@ -5,9 +5,14 @@ angular.module('flapperNews', ['ui.router', 'templates'])
 '$urlRouterProvider',
 function($stateProvider, $urlRouterProvider) {
 
-	$urlRouterProvider.otherwise('home');
+	$urlRouterProvider.otherwise('/');
 
   $stateProvider
+    .state('/', {
+      url: '/',
+      templateUrl: 'login/_login.html',
+      controller: 'LoginCtrl',
+    })
     .state('home', {
       url: '/home',
       templateUrl: 'home/_home.html',

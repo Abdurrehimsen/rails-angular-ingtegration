@@ -24,6 +24,8 @@ gem 'sprockets', '~> 3.7', '>= 3.7.1'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+gem 'devise'
+
 gem 'angular_rails_csrf', '~> 2.1', '>= 2.1.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
